@@ -1,5 +1,18 @@
 # GestioneProduzione2009
 
+## Compilazione
+
+### Dipendenze
+Il progetto dipende da questi progetti
+
+- [GestioneProduzione2014Plugins](https://github.com/aleven/GestioneProduzione2014Plugins)
+- [VS2005Commons](https://github.com/aleven/VS2005Commons)
+
+### Build Events
+
+	copy $(ProjectDir)*.rpt $(TargetDir)
+	copy $(ProjectDir)immagini\*.png $(TargetDir)
+
 ## Installazione
 
 ### Installazione 32bit
@@ -21,7 +34,3 @@ NOTA: verificare che nel computer non sia stata installata precedente la version
 
 Nel caso ci sia un conflitto fra 32 e 64 bit succede che il pulsante Stampa non funziona
 
-## Build Events
-
-	copy $(ProjectDir)*.rpt $(TargetDir)
-	copy $(ProjectDir)immagini\*.png $(TargetDir)
