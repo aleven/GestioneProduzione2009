@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>648, 17</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>351, 641</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 641</value>
+  </metadata>
+  <data name="SqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t20_articoli] ([t20_cod_articolo], [t20_descrizione], [t20_prezzo], [t20_qt_disponibile], [t20_lotto_riordino], [t20_is_gruppo], [t20_dt_creazione], [t20_dt_modifica], [t20_dt_cancellazione], [t20_id_fornitore_t11], [t20_prezzo_forzato], [t20_is_ricambio]) VALUES (@t20_cod_articolo, @t20_descrizione, @t20_prezzo, @t20_qt_disponibile, @t20_lotto_riordino, @t20_is_gruppo, @t20_dt_creazione, @t20_dt_modifica, @t20_dt_cancellazione, @t20_id_fornitore_t11, @t20_prezzo_forzato, @t20_is_ricambio);
+SELECT t20_id_articolo, t20_cod_articolo, t20_descrizione, t20_prezzo, t20_qt_disponibile, t20_lotto_riordino, t20_is_gruppo, t20_dt_creazione, t20_dt_modifica, t20_dt_cancellazione, t20_id_fornitore_t11, t20_prezzo_forzato, t20_is_ricambio FROM t20_articoli WHERE (t20_id_articolo = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 641</value>
+  </metadata>
+  <data name="SqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [t20_articoli] SET [t20_cod_articolo] = @t20_cod_articolo, [t20_descrizione] = @t20_descrizione, [t20_prezzo] = @t20_prezzo, [t20_qt_disponibile] = @t20_qt_disponibile, [t20_lotto_riordino] = @t20_lotto_riordino, [t20_is_gruppo] = @t20_is_gruppo, [t20_dt_creazione] = @t20_dt_creazione, [t20_dt_modifica] = @t20_dt_modifica, [t20_dt_cancellazione] = @t20_dt_cancellazione, [t20_id_fornitore_t11] = @t20_id_fornitore_t11, [t20_prezzo_forzato] = @t20_prezzo_forzato, [t20_is_ricambio] = @t20_is_ricambio WHERE (([t20_id_articolo] = @Original_t20_id_articolo) AND ((@IsNull_t20_cod_articolo = 1 AND [t20_cod_articolo] IS NULL) OR ([t20_cod_articolo] = @Original_t20_cod_articolo)) AND ((@IsNull_t20_descrizione = 1 AND [t20_descrizione] IS NULL) OR ([t20_descrizione] = @Original_t20_descrizione)) AND ((@IsNull_t20_prezzo = 1 AND [t20_prezzo] IS NULL) OR ([t20_prezzo] = @Original_t20_prezzo)) AND ((@IsNull_t20_qt_disponibile = 1 AND [t20_qt_disponibile] IS NULL) OR ([t20_qt_disponibile] = @Original_t20_qt_disponibile)) AND ((@IsNull_t20_lotto_riordino = 1 AND [t20_lotto_riordino] IS NULL) OR ([t20_lotto_riordino] = @Original_t20_lotto_riordino)) AND ((@IsNull_t20_is_gruppo = 1 AND [t20_is_gruppo] IS NULL) OR ([t20_is_gruppo] = @Original_t20_is_gruppo)) AND ((@IsNull_t20_dt_creazione = 1 AND [t20_dt_creazione] IS NULL) OR ([t20_dt_creazione] = @Original_t20_dt_creazione)) AND ((@IsNull_t20_dt_modifica = 1 AND [t20_dt_modifica] IS NULL) OR ([t20_dt_modifica] = @Original_t20_dt_modifica)) AND ((@IsNull_t20_dt_cancellazione = 1 AND [t20_dt_cancellazione] IS NULL) OR ([t20_dt_cancellazione] = @Original_t20_dt_cancellazione)) AND ((@IsNull_t20_id_fornitore_t11 = 1 AND [t20_id_fornitore_t11] IS NULL) OR ([t20_id_fornitore_t11] = @Original_t20_id_fornitore_t11)) AND ((@IsNull_t20_prezzo_forzato = 1 AND [t20_prezzo_forzato] IS NULL) OR ([t20_prezzo_forzato] = @Original_t20_prezzo_forzato)) AND ((@IsNull_t20_is_ricambio = 1 AND [t20_is_ricambio] IS NULL) OR ([t20_is_ricambio] = @Original_t20_is_ricambio)));
+SELECT t20_id_articolo, t20_cod_articolo, t20_descrizione, t20_prezzo, t20_qt_disponibile, t20_lotto_riordino, t20_is_gruppo, t20_dt_creazione, t20_dt_modifica, t20_dt_cancellazione, t20_id_fornitore_t11, t20_prezzo_forzato, t20_is_ricambio FROM t20_articoli WHERE (t20_id_articolo = @t20_id_articolo)</value>
+  </data>
+  <metadata name="SqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>475, 95</value>
+  </metadata>
+  <data name="SqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t20_articoli] WHERE (([t20_id_articolo] = @Original_t20_id_articolo) AND ((@IsNull_t20_cod_articolo = 1 AND [t20_cod_articolo] IS NULL) OR ([t20_cod_articolo] = @Original_t20_cod_articolo)) AND ((@IsNull_t20_descrizione = 1 AND [t20_descrizione] IS NULL) OR ([t20_descrizione] = @Original_t20_descrizione)) AND ((@IsNull_t20_prezzo = 1 AND [t20_prezzo] IS NULL) OR ([t20_prezzo] = @Original_t20_prezzo)) AND ((@IsNull_t20_qt_disponibile = 1 AND [t20_qt_disponibile] IS NULL) OR ([t20_qt_disponibile] = @Original_t20_qt_disponibile)) AND ((@IsNull_t20_lotto_riordino = 1 AND [t20_lotto_riordino] IS NULL) OR ([t20_lotto_riordino] = @Original_t20_lotto_riordino)) AND ((@IsNull_t20_is_gruppo = 1 AND [t20_is_gruppo] IS NULL) OR ([t20_is_gruppo] = @Original_t20_is_gruppo)) AND ((@IsNull_t20_dt_creazione = 1 AND [t20_dt_creazione] IS NULL) OR ([t20_dt_creazione] = @Original_t20_dt_creazione)) AND ((@IsNull_t20_dt_modifica = 1 AND [t20_dt_modifica] IS NULL) OR ([t20_dt_modifica] = @Original_t20_dt_modifica)) AND ((@IsNull_t20_dt_cancellazione = 1 AND [t20_dt_cancellazione] IS NULL) OR ([t20_dt_cancellazione] = @Original_t20_dt_cancellazione)) AND ((@IsNull_t20_id_fornitore_t11 = 1 AND [t20_id_fornitore_t11] IS NULL) OR ([t20_id_fornitore_t11] = @Original_t20_id_fornitore_t11)) AND ((@IsNull_t20_prezzo_forzato = 1 AND [t20_prezzo_forzato] IS NULL) OR ([t20_prezzo_forzato] = @Original_t20_prezzo_forzato)) AND ((@IsNull_t20_is_ricambio = 1 AND [t20_is_ricambio] IS NULL) OR ([t20_is_ricambio] = @Original_t20_is_ricambio)))</value>
+  </data>
+  <metadata name="dat20_articoli.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>520, 602</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 602</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>420, 173</value>
+  </metadata>
+  <data name="SqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t21_articoli_macchine] ([t21_id_articolo_t20], [t21_id_macchina_t05], [t21_consumo], [t21_posizione], [t21_dt_creazione], [t21_dt_modifica], [t21_dt_cancellazione]) VALUES (@t21_id_articolo_t20, @t21_id_macchina_t05, @t21_consumo, @t21_posizione, @t21_dt_creazione, @t21_dt_modifica, @t21_dt_cancellazione);
+SELECT t21_id_articolo_t20, t21_id_macchina_t05, t21_consumo, t21_posizione, t21_dt_creazione, t21_dt_modifica, t21_dt_cancellazione FROM t21_articoli_macchine WHERE (t21_id_articolo_t20 = @t21_id_articolo_t20) AND (t21_id_macchina_t05 = @t21_id_macchina_t05)</value>
+  </data>
+  <metadata name="SqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 602</value>
+  </metadata>
+  <data name="SqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE [t21_articoli_macchine] SET [t21_id_articolo_t20] = @t21_id_articolo_t20, [t21_id_macchina_t05] = @t21_id_macchina_t05, [t21_consumo] = @t21_consumo, [t21_posizione] = @t21_posizione, [t21_dt_creazione] = @t21_dt_creazione, [t21_dt_modifica] = @t21_dt_modifica, [t21_dt_cancellazione] = @t21_dt_cancellazione WHERE (([t21_id_articolo_t20] = @Original_t21_id_articolo_t20) AND ([t21_id_macchina_t05] = @Original_t21_id_macchina_t05) AND ((@IsNull_t21_consumo = 1 AND [t21_consumo] IS NULL) OR ([t21_consumo] = @Original_t21_consumo)) AND ((@IsNull_t21_posizione = 1 AND [t21_posizione] IS NULL) OR ([t21_posizione] = @Original_t21_posizione)) AND ((@IsNull_t21_dt_creazione = 1 AND [t21_dt_creazione] IS NULL) OR ([t21_dt_creazione] = @Original_t21_dt_creazione)) AND ((@IsNull_t21_dt_modifica = 1 AND [t21_dt_modifica] IS NULL) OR ([t21_dt_modifica] = @Original_t21_dt_modifica)) AND ((@IsNull_t21_dt_cancellazione = 1 AND [t21_dt_cancellazione] IS NULL) OR ([t21_dt_cancellazione] = @Original_t21_dt_cancellazione)));
+SELECT t21_id_articolo_t20, t21_id_macchina_t05, t21_consumo, t21_posizione, t21_dt_creazione, t21_dt_modifica, t21_dt_cancellazione FROM t21_articoli_macchine WHERE (t21_id_articolo_t20 = @t21_id_articolo_t20) AND (t21_id_macchina_t05 = @t21_id_macchina_t05)</value>
+  </data>
+  <metadata name="SqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 602</value>
+  </metadata>
+  <data name="SqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t21_articoli_macchine] WHERE (([t21_id_articolo_t20] = @Original_t21_id_articolo_t20) AND ([t21_id_macchina_t05] = @Original_t21_id_macchina_t05) AND ((@IsNull_t21_consumo = 1 AND [t21_consumo] IS NULL) OR ([t21_consumo] = @Original_t21_consumo)) AND ((@IsNull_t21_posizione = 1 AND [t21_posizione] IS NULL) OR ([t21_posizione] = @Original_t21_posizione)) AND ((@IsNull_t21_dt_creazione = 1 AND [t21_dt_creazione] IS NULL) OR ([t21_dt_creazione] = @Original_t21_dt_creazione)) AND ((@IsNull_t21_dt_modifica = 1 AND [t21_dt_modifica] IS NULL) OR ([t21_dt_modifica] = @Original_t21_dt_modifica)) AND ((@IsNull_t21_dt_cancellazione = 1 AND [t21_dt_cancellazione] IS NULL) OR ([t21_dt_cancellazione] = @Original_t21_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat21_articoli_macchine.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>510, 563</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>355, 251</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 212</value>
+  </metadata>
+  <data name="SqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t22_articoli_articoli] ([t22_id_articolo_t20], [t22_id_articolo_padre_t20], [t22_consumo], [t22_posizione], [t22_dt_creazione], [t22_dt_modifica], [t22_dt_cancellazione]) VALUES (@t22_id_articolo_t20, @t22_id_articolo_padre_t20, @t22_consumo, @t22_posizione, @t22_dt_creazione, @t22_dt_modifica, @t22_dt_cancellazione)</value>
+  </data>
+  <metadata name="dat22_articoli_articoli.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 251</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>346, 563</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 563</value>
+  </metadata>
+  <data name="SqlInsertCommand4.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t05_macchine] ([t05_cod_macchina], [t05_descrizione], [t05_dt_creazione], [t05_dt_modifica], [t05_dt_cancellazione]) VALUES (@t05_cod_macchina, @t05_descrizione, @t05_dt_creazione, @t05_dt_modifica, @t05_dt_cancellazione);
+SELECT t05_id_macchina, t05_cod_macchina, t05_descrizione, t05_dt_creazione, t05_dt_modifica, t05_dt_cancellazione FROM t05_macchine WHERE (t05_id_macchina = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>519, 251</value>
+  </metadata>
+  <data name="SqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE [t05_macchine] SET [t05_cod_macchina] = @t05_cod_macchina, [t05_descrizione] = @t05_descrizione, [t05_dt_creazione] = @t05_dt_creazione, [t05_dt_modifica] = @t05_dt_modifica, [t05_dt_cancellazione] = @t05_dt_cancellazione WHERE (([t05_id_macchina] = @Original_t05_id_macchina) AND ((@IsNull_t05_cod_macchina = 1 AND [t05_cod_macchina] IS NULL) OR ([t05_cod_macchina] = @Original_t05_cod_macchina)) AND ((@IsNull_t05_descrizione = 1 AND [t05_descrizione] IS NULL) OR ([t05_descrizione] = @Original_t05_descrizione)) AND ((@IsNull_t05_dt_creazione = 1 AND [t05_dt_creazione] IS NULL) OR ([t05_dt_creazione] = @Original_t05_dt_creazione)) AND ((@IsNull_t05_dt_modifica = 1 AND [t05_dt_modifica] IS NULL) OR ([t05_dt_modifica] = @Original_t05_dt_modifica)) AND ((@IsNull_t05_dt_cancellazione = 1 AND [t05_dt_cancellazione] IS NULL) OR ([t05_dt_cancellazione] = @Original_t05_dt_cancellazione)));
+SELECT t05_id_macchina, t05_cod_macchina, t05_descrizione, t05_dt_creazione, t05_dt_modifica, t05_dt_cancellazione FROM t05_macchine WHERE (t05_id_macchina = @t05_id_macchina)</value>
+  </data>
+  <metadata name="SqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 563</value>
+  </metadata>
+  <data name="SqlDeleteCommand3.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t05_macchine] WHERE (([t05_id_macchina] = @Original_t05_id_macchina) AND ((@IsNull_t05_cod_macchina = 1 AND [t05_cod_macchina] IS NULL) OR ([t05_cod_macchina] = @Original_t05_cod_macchina)) AND ((@IsNull_t05_descrizione = 1 AND [t05_descrizione] IS NULL) OR ([t05_descrizione] = @Original_t05_descrizione)) AND ((@IsNull_t05_dt_creazione = 1 AND [t05_dt_creazione] IS NULL) OR ([t05_dt_creazione] = @Original_t05_dt_creazione)) AND ((@IsNull_t05_dt_modifica = 1 AND [t05_dt_modifica] IS NULL) OR ([t05_dt_modifica] = @Original_t05_dt_modifica)) AND ((@IsNull_t05_dt_cancellazione = 1 AND [t05_dt_cancellazione] IS NULL) OR ([t05_dt_cancellazione] = @Original_t05_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat05_macchine.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>528, 524</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 290</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>366, 524</value>
+  </metadata>
+  <data name="SqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t06_istanze_macchine] ([t06_descrizione], [t06_dt_consegna], [t06_id_macchina_t05], [t06_quantita], [t06_id_stato_istanza_t07], [t06_dt_creazione], [t06_dt_modifica], [t06_dt_cancellazione]) VALUES (@t06_descrizione, @t06_dt_consegna, @t06_id_macchina_t05, @t06_quantita, @t06_id_stato_istanza_t07, @t06_dt_creazione, @t06_dt_modifica, @t06_dt_cancellazione);
+SELECT t06_id_istanza_macchina, t06_descrizione, t06_dt_consegna, t06_id_macchina_t05, t06_quantita, t06_id_stato_istanza_t07, t06_dt_creazione, t06_dt_modifica, t06_dt_cancellazione FROM t06_istanze_macchine WHERE (t06_id_istanza_macchina = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>350, 290</value>
+  </metadata>
+  <data name="SqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE [t06_istanze_macchine] SET [t06_descrizione] = @t06_descrizione, [t06_dt_consegna] = @t06_dt_consegna, [t06_id_macchina_t05] = @t06_id_macchina_t05, [t06_quantita] = @t06_quantita, [t06_id_stato_istanza_t07] = @t06_id_stato_istanza_t07, [t06_dt_creazione] = @t06_dt_creazione, [t06_dt_modifica] = @t06_dt_modifica, [t06_dt_cancellazione] = @t06_dt_cancellazione WHERE (([t06_id_istanza_macchina] = @Original_t06_id_istanza_macchina) AND ((@IsNull_t06_descrizione = 1 AND [t06_descrizione] IS NULL) OR ([t06_descrizione] = @Original_t06_descrizione)) AND ((@IsNull_t06_dt_consegna = 1 AND [t06_dt_consegna] IS NULL) OR ([t06_dt_consegna] = @Original_t06_dt_consegna)) AND ((@IsNull_t06_id_macchina_t05 = 1 AND [t06_id_macchina_t05] IS NULL) OR ([t06_id_macchina_t05] = @Original_t06_id_macchina_t05)) AND ((@IsNull_t06_quantita = 1 AND [t06_quantita] IS NULL) OR ([t06_quantita] = @Original_t06_quantita)) AND ([t06_id_stato_istanza_t07] = @Original_t06_id_stato_istanza_t07) AND ((@IsNull_t06_dt_creazione = 1 AND [t06_dt_creazione] IS NULL) OR ([t06_dt_creazione] = @Original_t06_dt_creazione)) AND ((@IsNull_t06_dt_modifica = 1 AND [t06_dt_modifica] IS NULL) OR ([t06_dt_modifica] = @Original_t06_dt_modifica)) AND ((@IsNull_t06_dt_cancellazione = 1 AND [t06_dt_cancellazione] IS NULL) OR ([t06_dt_cancellazione] = @Original_t06_dt_cancellazione)));
+SELECT t06_id_istanza_macchina, t06_descrizione, t06_dt_consegna, t06_id_macchina_t05, t06_quantita, t06_id_stato_istanza_t07, t06_dt_creazione, t06_dt_modifica, t06_dt_cancellazione FROM t06_istanze_macchine WHERE (t06_id_istanza_macchina = @t06_id_istanza_macchina)</value>
+  </data>
+  <metadata name="SqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>199, 524</value>
+  </metadata>
+  <data name="SqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t06_istanze_macchine] WHERE (([t06_id_istanza_macchina] = @Original_t06_id_istanza_macchina) AND ((@IsNull_t06_descrizione = 1 AND [t06_descrizione] IS NULL) OR ([t06_descrizione] = @Original_t06_descrizione)) AND ((@IsNull_t06_dt_consegna = 1 AND [t06_dt_consegna] IS NULL) OR ([t06_dt_consegna] = @Original_t06_dt_consegna)) AND ((@IsNull_t06_id_macchina_t05 = 1 AND [t06_id_macchina_t05] IS NULL) OR ([t06_id_macchina_t05] = @Original_t06_id_macchina_t05)) AND ((@IsNull_t06_quantita = 1 AND [t06_quantita] IS NULL) OR ([t06_quantita] = @Original_t06_quantita)) AND ([t06_id_stato_istanza_t07] = @Original_t06_id_stato_istanza_t07) AND ((@IsNull_t06_dt_creazione = 1 AND [t06_dt_creazione] IS NULL) OR ([t06_dt_creazione] = @Original_t06_dt_creazione)) AND ((@IsNull_t06_dt_modifica = 1 AND [t06_dt_modifica] IS NULL) OR ([t06_dt_modifica] = @Original_t06_dt_modifica)) AND ((@IsNull_t06_dt_cancellazione = 1 AND [t06_dt_cancellazione] IS NULL) OR ([t06_dt_cancellazione] = @Original_t06_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat06_istanze_macchine.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 524</value>
+  </metadata>
+  <metadata name="SqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>522, 290</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>535, 485</value>
+  </metadata>
+  <data name="SqlInsertCommand6.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t08_testate_ordini_for] ([t08_cod_testata_ordine_for], [t08_descrizione], [t08_id_fornitore_t11], [t08_dt_ordine], [t08_dt_consegna], [t08_tipo_ordine], [t08_id_causale_ordine_for_t15], [t08_dt_creazione], [t08_dt_modifica], [t08_dt_cancellazione]) VALUES (@t08_cod_testata_ordine_for, @t08_descrizione, @t08_id_fornitore_t11, @t08_dt_ordine, @t08_dt_consegna, @t08_tipo_ordine, @t08_id_causale_ordine_for_t15, @t08_dt_creazione, @t08_dt_modifica, @t08_dt_cancellazione);
+SELECT t08_id_testata_ordine_for, t08_cod_testata_ordine_for, t08_descrizione, t08_id_fornitore_t11, t08_dt_ordine, t08_dt_consegna, t08_tipo_ordine, t08_id_causale_ordine_for_t15, t08_dt_creazione, t08_dt_modifica, t08_dt_cancellazione FROM t08_testate_ordini_for WHERE (t08_id_testata_ordine_for = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>363, 485</value>
+  </metadata>
+  <data name="SqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE [t08_testate_ordini_for] SET [t08_cod_testata_ordine_for] = @t08_cod_testata_ordine_for, [t08_descrizione] = @t08_descrizione, [t08_id_fornitore_t11] = @t08_id_fornitore_t11, [t08_dt_ordine] = @t08_dt_ordine, [t08_dt_consegna] = @t08_dt_consegna, [t08_tipo_ordine] = @t08_tipo_ordine, [t08_id_causale_ordine_for_t15] = @t08_id_causale_ordine_for_t15, [t08_dt_creazione] = @t08_dt_creazione, [t08_dt_modifica] = @t08_dt_modifica, [t08_dt_cancellazione] = @t08_dt_cancellazione WHERE (([t08_id_testata_ordine_for] = @Original_t08_id_testata_ordine_for) AND ((@IsNull_t08_cod_testata_ordine_for = 1 AND [t08_cod_testata_ordine_for] IS NULL) OR ([t08_cod_testata_ordine_for] = @Original_t08_cod_testata_ordine_for)) AND ((@IsNull_t08_descrizione = 1 AND [t08_descrizione] IS NULL) OR ([t08_descrizione] = @Original_t08_descrizione)) AND ((@IsNull_t08_id_fornitore_t11 = 1 AND [t08_id_fornitore_t11] IS NULL) OR ([t08_id_fornitore_t11] = @Original_t08_id_fornitore_t11)) AND ((@IsNull_t08_dt_ordine = 1 AND [t08_dt_ordine] IS NULL) OR ([t08_dt_ordine] = @Original_t08_dt_ordine)) AND ((@IsNull_t08_dt_consegna = 1 AND [t08_dt_consegna] IS NULL) OR ([t08_dt_consegna] = @Original_t08_dt_consegna)) AND ((@IsNull_t08_tipo_ordine = 1 AND [t08_tipo_ordine] IS NULL) OR ([t08_tipo_ordine] = @Original_t08_tipo_ordine)) AND ((@IsNull_t08_id_causale_ordine_for_t15 = 1 AND [t08_id_causale_ordine_for_t15] IS NULL) OR ([t08_id_causale_ordine_for_t15] = @Original_t08_id_causale_ordine_for_t15)) AND ((@IsNull_t08_dt_creazione = 1 AND [t08_dt_creazione] IS NULL) OR ([t08_dt_creazione] = @Original_t08_dt_creazione)) AND ((@IsNull_t08_dt_modifica = 1 AND [t08_dt_modifica] IS NULL) OR ([t08_dt_modifica] = @Original_t08_dt_modifica)) AND ((@IsNull_t08_dt_cancellazione = 1 AND [t08_dt_cancellazione] IS NULL) OR ([t08_dt_cancellazione] = @Original_t08_dt_cancellazione)));
+SELECT t08_id_testata_ordine_for, t08_cod_testata_ordine_for, t08_descrizione, t08_id_fornitore_t11, t08_dt_ordine, t08_dt_consegna, t08_tipo_ordine, t08_id_causale_ordine_for_t15, t08_dt_creazione, t08_dt_modifica, t08_dt_cancellazione FROM t08_testate_ordini_for WHERE (t08_id_testata_ordine_for = @t08_id_testata_ordine_for)</value>
+  </data>
+  <metadata name="SqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>188, 329</value>
+  </metadata>
+  <data name="SqlDeleteCommand5.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t08_testate_ordini_for] WHERE (([t08_id_testata_ordine_for] = @Original_t08_id_testata_ordine_for) AND ((@IsNull_t08_cod_testata_ordine_for = 1 AND [t08_cod_testata_ordine_for] IS NULL) OR ([t08_cod_testata_ordine_for] = @Original_t08_cod_testata_ordine_for)) AND ((@IsNull_t08_descrizione = 1 AND [t08_descrizione] IS NULL) OR ([t08_descrizione] = @Original_t08_descrizione)) AND ((@IsNull_t08_id_fornitore_t11 = 1 AND [t08_id_fornitore_t11] IS NULL) OR ([t08_id_fornitore_t11] = @Original_t08_id_fornitore_t11)) AND ((@IsNull_t08_dt_ordine = 1 AND [t08_dt_ordine] IS NULL) OR ([t08_dt_ordine] = @Original_t08_dt_ordine)) AND ((@IsNull_t08_dt_consegna = 1 AND [t08_dt_consegna] IS NULL) OR ([t08_dt_consegna] = @Original_t08_dt_consegna)) AND ((@IsNull_t08_tipo_ordine = 1 AND [t08_tipo_ordine] IS NULL) OR ([t08_tipo_ordine] = @Original_t08_tipo_ordine)) AND ((@IsNull_t08_id_causale_ordine_for_t15 = 1 AND [t08_id_causale_ordine_for_t15] IS NULL) OR ([t08_id_causale_ordine_for_t15] = @Original_t08_id_causale_ordine_for_t15)) AND ((@IsNull_t08_dt_creazione = 1 AND [t08_dt_creazione] IS NULL) OR ([t08_dt_creazione] = @Original_t08_dt_creazione)) AND ((@IsNull_t08_dt_modifica = 1 AND [t08_dt_modifica] IS NULL) OR ([t08_dt_modifica] = @Original_t08_dt_modifica)) AND ((@IsNull_t08_dt_cancellazione = 1 AND [t08_dt_cancellazione] IS NULL) OR ([t08_dt_cancellazione] = @Original_t08_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat08_testate_ordini_for.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 485</value>
+  </metadata>
+  <metadata name="SqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 485</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>523, 446</value>
+  </metadata>
+  <data name="SqlInsertCommand7.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t09_righe_ordine_for] ([t09_cod_riga_ordine_for], [t09_id_testata_ordine_for_t08], [t09_posizione], [t09_id_articolo_t20], [t09_qt_ordinata], [t09_qt_evasa], [t09_prezzo_uni], [t09_dt_consegna], [t09_id_stato_riga_ordine_t10], [t09_dt_creazione], [t09_dt_modifica], [t09_dt_cancellazione]) VALUES (@t09_cod_riga_ordine_for, @t09_id_testata_ordine_for_t08, @t09_posizione, @t09_id_articolo_t20, @t09_qt_ordinata, @t09_qt_evasa, @t09_prezzo_uni, @t09_dt_consegna, @t09_id_stato_riga_ordine_t10, @t09_dt_creazione, @t09_dt_modifica, @t09_dt_cancellazione);
+SELECT t09_id_riga_ordine_for, t09_cod_riga_ordine_for, t09_id_testata_ordine_for_t08, t09_posizione, t09_id_articolo_t20, t09_qt_ordinata, t09_qt_evasa, t09_prezzo_uni, t09_dt_consegna, t09_id_stato_riga_ordine_t10, t09_dt_creazione, t09_dt_modifica, t09_dt_cancellazione FROM t09_righe_ordine_for WHERE (t09_id_riga_ordine_for = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>355, 329</value>
+  </metadata>
+  <data name="SqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE [t09_righe_ordine_for] SET [t09_cod_riga_ordine_for] = @t09_cod_riga_ordine_for, [t09_id_testata_ordine_for_t08] = @t09_id_testata_ordine_for_t08, [t09_posizione] = @t09_posizione, [t09_id_articolo_t20] = @t09_id_articolo_t20, [t09_qt_ordinata] = @t09_qt_ordinata, [t09_qt_evasa] = @t09_qt_evasa, [t09_prezzo_uni] = @t09_prezzo_uni, [t09_dt_consegna] = @t09_dt_consegna, [t09_id_stato_riga_ordine_t10] = @t09_id_stato_riga_ordine_t10, [t09_dt_creazione] = @t09_dt_creazione, [t09_dt_modifica] = @t09_dt_modifica, [t09_dt_cancellazione] = @t09_dt_cancellazione WHERE (([t09_id_riga_ordine_for] = @Original_t09_id_riga_ordine_for) AND ((@IsNull_t09_cod_riga_ordine_for = 1 AND [t09_cod_riga_ordine_for] IS NULL) OR ([t09_cod_riga_ordine_for] = @Original_t09_cod_riga_ordine_for)) AND ((@IsNull_t09_id_testata_ordine_for_t08 = 1 AND [t09_id_testata_ordine_for_t08] IS NULL) OR ([t09_id_testata_ordine_for_t08] = @Original_t09_id_testata_ordine_for_t08)) AND ((@IsNull_t09_posizione = 1 AND [t09_posizione] IS NULL) OR ([t09_posizione] = @Original_t09_posizione)) AND ((@IsNull_t09_id_articolo_t20 = 1 AND [t09_id_articolo_t20] IS NULL) OR ([t09_id_articolo_t20] = @Original_t09_id_articolo_t20)) AND ((@IsNull_t09_qt_ordinata = 1 AND [t09_qt_ordinata] IS NULL) OR ([t09_qt_ordinata] = @Original_t09_qt_ordinata)) AND ((@IsNull_t09_qt_evasa = 1 AND [t09_qt_evasa] IS NULL) OR ([t09_qt_evasa] = @Original_t09_qt_evasa)) AND ((@IsNull_t09_prezzo_uni = 1 AND [t09_prezzo_uni] IS NULL) OR ([t09_prezzo_uni] = @Original_t09_prezzo_uni)) AND ((@IsNull_t09_dt_consegna = 1 AND [t09_dt_consegna] IS NULL) OR ([t09_dt_consegna] = @Original_t09_dt_consegna)) AND ((@IsNull_t09_id_stato_riga_ordine_t10 = 1 AND [t09_id_stato_riga_ordine_t10] IS NULL) OR ([t09_id_stato_riga_ordine_t10] = @Original_t09_id_stato_riga_ordine_t10)) AND ((@IsNull_t09_dt_creazione = 1 AND [t09_dt_creazione] IS NULL) OR ([t09_dt_creazione] = @Original_t09_dt_creazione)) AND ((@IsNull_t09_dt_modifica = 1 AND [t09_dt_modifica] IS NULL) OR ([t09_dt_modifica] = @Original_t09_dt_modifica)) AND ((@IsNull_t09_dt_cancellazione = 1 AND [t09_dt_cancellazione] IS NULL) OR ([t09_dt_cancellazione] = @Original_t09_dt_cancellazione)));
+SELECT t09_id_riga_ordine_for, t09_cod_riga_ordine_for, t09_id_testata_ordine_for_t08, t09_posizione, t09_id_articolo_t20, t09_qt_ordinata, t09_qt_evasa, t09_prezzo_uni, t09_dt_consegna, t09_id_stato_riga_ordine_t10, t09_dt_creazione, t09_dt_modifica, t09_dt_cancellazione FROM t09_righe_ordine_for WHERE (t09_id_riga_ordine_for = @t09_id_riga_ordine_for)</value>
+  </data>
+  <metadata name="SqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 446</value>
+  </metadata>
+  <data name="SqlDeleteCommand6.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t09_righe_ordine_for] WHERE (([t09_id_riga_ordine_for] = @Original_t09_id_riga_ordine_for) AND ((@IsNull_t09_cod_riga_ordine_for = 1 AND [t09_cod_riga_ordine_for] IS NULL) OR ([t09_cod_riga_ordine_for] = @Original_t09_cod_riga_ordine_for)) AND ((@IsNull_t09_id_testata_ordine_for_t08 = 1 AND [t09_id_testata_ordine_for_t08] IS NULL) OR ([t09_id_testata_ordine_for_t08] = @Original_t09_id_testata_ordine_for_t08)) AND ((@IsNull_t09_posizione = 1 AND [t09_posizione] IS NULL) OR ([t09_posizione] = @Original_t09_posizione)) AND ((@IsNull_t09_id_articolo_t20 = 1 AND [t09_id_articolo_t20] IS NULL) OR ([t09_id_articolo_t20] = @Original_t09_id_articolo_t20)) AND ((@IsNull_t09_qt_ordinata = 1 AND [t09_qt_ordinata] IS NULL) OR ([t09_qt_ordinata] = @Original_t09_qt_ordinata)) AND ((@IsNull_t09_qt_evasa = 1 AND [t09_qt_evasa] IS NULL) OR ([t09_qt_evasa] = @Original_t09_qt_evasa)) AND ((@IsNull_t09_prezzo_uni = 1 AND [t09_prezzo_uni] IS NULL) OR ([t09_prezzo_uni] = @Original_t09_prezzo_uni)) AND ((@IsNull_t09_dt_consegna = 1 AND [t09_dt_consegna] IS NULL) OR ([t09_dt_consegna] = @Original_t09_dt_consegna)) AND ((@IsNull_t09_id_stato_riga_ordine_t10 = 1 AND [t09_id_stato_riga_ordine_t10] IS NULL) OR ([t09_id_stato_riga_ordine_t10] = @Original_t09_id_stato_riga_ordine_t10)) AND ((@IsNull_t09_dt_creazione = 1 AND [t09_dt_creazione] IS NULL) OR ([t09_dt_creazione] = @Original_t09_dt_creazione)) AND ((@IsNull_t09_dt_modifica = 1 AND [t09_dt_modifica] IS NULL) OR ([t09_dt_modifica] = @Original_t09_dt_modifica)) AND ((@IsNull_t09_dt_cancellazione = 1 AND [t09_dt_cancellazione] IS NULL) OR ([t09_dt_cancellazione] = @Original_t09_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat09_righe_ordine_for.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>179, 446</value>
+  </metadata>
+  <metadata name="SqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 368</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 446</value>
+  </metadata>
+  <data name="SqlInsertCommand8.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t25_matricole] ([t25_id_articolo_t20], [t25_cod_matricola], [t25_descrizione], [t25_dt_creazione], [t25_dt_cancellazione]) VALUES (@t25_id_articolo_t20, @t25_cod_matricola, @t25_descrizione, @t25_dt_creazione, @t25_dt_cancellazione);
+SELECT t25_id_matricola, t25_id_articolo_t20, t25_cod_matricola, t25_descrizione, t25_dt_creazione, t25_dt_cancellazione FROM t25_matricole WHERE (t25_id_matricola = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>520, 407</value>
+  </metadata>
+  <data name="SqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE [t25_matricole] SET [t25_id_articolo_t20] = @t25_id_articolo_t20, [t25_cod_matricola] = @t25_cod_matricola, [t25_descrizione] = @t25_descrizione, [t25_dt_creazione] = @t25_dt_creazione, [t25_dt_cancellazione] = @t25_dt_cancellazione WHERE (([t25_id_matricola] = @Original_t25_id_matricola) AND ((@IsNull_t25_id_articolo_t20 = 1 AND [t25_id_articolo_t20] IS NULL) OR ([t25_id_articolo_t20] = @Original_t25_id_articolo_t20)) AND ((@IsNull_t25_cod_matricola = 1 AND [t25_cod_matricola] IS NULL) OR ([t25_cod_matricola] = @Original_t25_cod_matricola)) AND ((@IsNull_t25_descrizione = 1 AND [t25_descrizione] IS NULL) OR ([t25_descrizione] = @Original_t25_descrizione)) AND ((@IsNull_t25_dt_creazione = 1 AND [t25_dt_creazione] IS NULL) OR ([t25_dt_creazione] = @Original_t25_dt_creazione)) AND ((@IsNull_t25_dt_cancellazione = 1 AND [t25_dt_cancellazione] IS NULL) OR ([t25_dt_cancellazione] = @Original_t25_dt_cancellazione)));
+SELECT t25_id_matricola, t25_id_articolo_t20, t25_cod_matricola, t25_descrizione, t25_dt_creazione, t25_dt_cancellazione FROM t25_matricole WHERE (t25_id_matricola = @t25_id_matricola)</value>
+  </data>
+  <metadata name="SqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>353, 407</value>
+  </metadata>
+  <data name="SqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t25_matricole] WHERE (([t25_id_matricola] = @Original_t25_id_matricola) AND ((@IsNull_t25_id_articolo_t20 = 1 AND [t25_id_articolo_t20] IS NULL) OR ([t25_id_articolo_t20] = @Original_t25_id_articolo_t20)) AND ((@IsNull_t25_cod_matricola = 1 AND [t25_cod_matricola] IS NULL) OR ([t25_cod_matricola] = @Original_t25_cod_matricola)) AND ((@IsNull_t25_descrizione = 1 AND [t25_descrizione] IS NULL) OR ([t25_descrizione] = @Original_t25_descrizione)) AND ((@IsNull_t25_dt_creazione = 1 AND [t25_dt_creazione] IS NULL) OR ([t25_dt_creazione] = @Original_t25_dt_creazione)) AND ((@IsNull_t25_dt_cancellazione = 1 AND [t25_dt_cancellazione] IS NULL) OR ([t25_dt_cancellazione] = @Original_t25_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat25_matricole.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 368</value>
+  </metadata>
+  <metadata name="SqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>189, 407</value>
+  </metadata>
+  <metadata name="SqlInsertCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>487, 368</value>
+  </metadata>
+  <data name="SqlInsertCommand9.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t26_formule_prezzi] ([t26_cod_formula], [t26_descrizione], [t26_formula_da], [t26_formula_a], [t26_prezzo_fisso], [t26_fattore], [t26_arrotondamento]) VALUES (@t26_cod_formula, @t26_descrizione, @t26_formula_da, @t26_formula_a, @t26_prezzo_fisso, @t26_fattore, @t26_arrotondamento);
+SELECT t26_id_formula, t26_cod_formula, t26_descrizione, t26_formula_da, t26_formula_a, t26_prezzo_fisso, t26_fattore, t26_arrotondamento FROM t26_formule_prezzi WHERE (t26_id_formula = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 407</value>
+  </metadata>
+  <data name="SqlUpdateCommand8.CommandText" xml:space="preserve">
+    <value>UPDATE [t26_formule_prezzi] SET [t26_cod_formula] = @t26_cod_formula, [t26_descrizione] = @t26_descrizione, [t26_formula_da] = @t26_formula_da, [t26_formula_a] = @t26_formula_a, [t26_prezzo_fisso] = @t26_prezzo_fisso, [t26_fattore] = @t26_fattore, [t26_arrotondamento] = @t26_arrotondamento WHERE (([t26_id_formula] = @Original_t26_id_formula) AND ((@IsNull_t26_cod_formula = 1 AND [t26_cod_formula] IS NULL) OR ([t26_cod_formula] = @Original_t26_cod_formula)) AND ((@IsNull_t26_descrizione = 1 AND [t26_descrizione] IS NULL) OR ([t26_descrizione] = @Original_t26_descrizione)) AND ((@IsNull_t26_formula_da = 1 AND [t26_formula_da] IS NULL) OR ([t26_formula_da] = @Original_t26_formula_da)) AND ((@IsNull_t26_formula_a = 1 AND [t26_formula_a] IS NULL) OR ([t26_formula_a] = @Original_t26_formula_a)) AND ((@IsNull_t26_prezzo_fisso = 1 AND [t26_prezzo_fisso] IS NULL) OR ([t26_prezzo_fisso] = @Original_t26_prezzo_fisso)) AND ((@IsNull_t26_fattore = 1 AND [t26_fattore] IS NULL) OR ([t26_fattore] = @Original_t26_fattore)) AND ((@IsNull_t26_arrotondamento = 1 AND [t26_arrotondamento] IS NULL) OR ([t26_arrotondamento] = @Original_t26_arrotondamento)));
+SELECT t26_id_formula, t26_cod_formula, t26_descrizione, t26_formula_da, t26_formula_a, t26_prezzo_fisso, t26_fattore, t26_arrotondamento FROM t26_formule_prezzi WHERE (t26_id_formula = @t26_id_formula)</value>
+  </data>
+  <metadata name="SqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>320, 368</value>
+  </metadata>
+  <data name="SqlDeleteCommand8.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t26_formule_prezzi] WHERE (([t26_id_formula] = @Original_t26_id_formula) AND ((@IsNull_t26_cod_formula = 1 AND [t26_cod_formula] IS NULL) OR ([t26_cod_formula] = @Original_t26_cod_formula)) AND ((@IsNull_t26_descrizione = 1 AND [t26_descrizione] IS NULL) OR ([t26_descrizione] = @Original_t26_descrizione)) AND ((@IsNull_t26_formula_da = 1 AND [t26_formula_da] IS NULL) OR ([t26_formula_da] = @Original_t26_formula_da)) AND ((@IsNull_t26_formula_a = 1 AND [t26_formula_a] IS NULL) OR ([t26_formula_a] = @Original_t26_formula_a)) AND ((@IsNull_t26_prezzo_fisso = 1 AND [t26_prezzo_fisso] IS NULL) OR ([t26_prezzo_fisso] = @Original_t26_prezzo_fisso)) AND ((@IsNull_t26_fattore = 1 AND [t26_fattore] IS NULL) OR ([t26_fattore] = @Original_t26_fattore)) AND ((@IsNull_t26_arrotondamento = 1 AND [t26_arrotondamento] IS NULL) OR ([t26_arrotondamento] = @Original_t26_arrotondamento)))</value>
+  </data>
+  <metadata name="dat26_formule_prezzi.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>527, 329</value>
+  </metadata>
+  <metadata name="SqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 329</value>
+  </metadata>
+  <metadata name="SqlInsertCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>181, 290</value>
+  </metadata>
+  <data name="SqlInsertCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t11_fornitori] ([t11_cod_fornitore], [t11_descrizione], [t11_telefono], [t11_note], [t11_dt_creazione], [t11_dt_modifica], [t11_dt_cancellazione]) VALUES (@t11_cod_fornitore, @t11_descrizione, @t11_telefono, @t11_note, @t11_dt_creazione, @t11_dt_modifica, @t11_dt_cancellazione);
+SELECT t11_id_fornitore, t11_cod_fornitore, t11_descrizione, t11_telefono, t11_note, t11_dt_creazione, t11_dt_modifica, t11_dt_cancellazione FROM t11_fornitori WHERE (t11_id_fornitore = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="SqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <data name="SqlUpdateCommand9.CommandText" xml:space="preserve">
+    <value>UPDATE [t11_fornitori] SET [t11_cod_fornitore] = @t11_cod_fornitore, [t11_descrizione] = @t11_descrizione, [t11_telefono] = @t11_telefono, [t11_note] = @t11_note, [t11_dt_creazione] = @t11_dt_creazione, [t11_dt_modifica] = @t11_dt_modifica, [t11_dt_cancellazione] = @t11_dt_cancellazione WHERE (([t11_id_fornitore] = @Original_t11_id_fornitore) AND ((@IsNull_t11_cod_fornitore = 1 AND [t11_cod_fornitore] IS NULL) OR ([t11_cod_fornitore] = @Original_t11_cod_fornitore)) AND ((@IsNull_t11_descrizione = 1 AND [t11_descrizione] IS NULL) OR ([t11_descrizione] = @Original_t11_descrizione)) AND ((@IsNull_t11_telefono = 1 AND [t11_telefono] IS NULL) OR ([t11_telefono] = @Original_t11_telefono)) AND ((@IsNull_t11_dt_creazione = 1 AND [t11_dt_creazione] IS NULL) OR ([t11_dt_creazione] = @Original_t11_dt_creazione)) AND ((@IsNull_t11_dt_modifica = 1 AND [t11_dt_modifica] IS NULL) OR ([t11_dt_modifica] = @Original_t11_dt_modifica)) AND ((@IsNull_t11_dt_cancellazione = 1 AND [t11_dt_cancellazione] IS NULL) OR ([t11_dt_cancellazione] = @Original_t11_dt_cancellazione)));
+SELECT t11_id_fornitore, t11_cod_fornitore, t11_descrizione, t11_telefono, t11_note, t11_dt_creazione, t11_dt_modifica, t11_dt_cancellazione FROM t11_fornitori WHERE (t11_id_fornitore = @t11_id_fornitore)</value>
+  </data>
+  <metadata name="SqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>503, 134</value>
+  </metadata>
+  <data name="SqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t11_fornitori] WHERE (([t11_id_fornitore] = @Original_t11_id_fornitore) AND ((@IsNull_t11_cod_fornitore = 1 AND [t11_cod_fornitore] IS NULL) OR ([t11_cod_fornitore] = @Original_t11_cod_fornitore)) AND ((@IsNull_t11_descrizione = 1 AND [t11_descrizione] IS NULL) OR ([t11_descrizione] = @Original_t11_descrizione)) AND ((@IsNull_t11_telefono = 1 AND [t11_telefono] IS NULL) OR ([t11_telefono] = @Original_t11_telefono)) AND ((@IsNull_t11_dt_creazione = 1 AND [t11_dt_creazione] IS NULL) OR ([t11_dt_creazione] = @Original_t11_dt_creazione)) AND ((@IsNull_t11_dt_modifica = 1 AND [t11_dt_modifica] IS NULL) OR ([t11_dt_modifica] = @Original_t11_dt_modifica)) AND ((@IsNull_t11_dt_cancellazione = 1 AND [t11_dt_cancellazione] IS NULL) OR ([t11_dt_cancellazione] = @Original_t11_dt_cancellazione)))</value>
+  </data>
+  <metadata name="dat11_fornitori.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="dat07_stati_istanza.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>267, 173</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlDeleteCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlDeleteCommand.CommandText" xml:space="preserve">
+    <value>DELETE FROM [t07_stati_istanza] WHERE (([t07_id_stato_istanza] = @Original_t07_id_stato_istanza) AND ((@IsNull_t07_descrizione = 1 AND [t07_descrizione] IS NULL) OR ([t07_descrizione] = @Original_t07_descrizione)) AND ((@IsNull_t07_posizione = 1 AND [t07_posizione] IS NULL) OR ([t07_posizione] = @Original_t07_posizione)) AND ((@IsNull_t07_dt_creazione = 1 AND [t07_dt_creazione] IS NULL) OR ([t07_dt_creazione] = @Original_t07_dt_creazione)) AND ((@IsNull_t07_dt_modifica = 1 AND [t07_dt_modifica] IS NULL) OR ([t07_dt_modifica] = @Original_t07_dt_modifica)) AND ((@IsNull_t07_dt_cancellazione = 1 AND [t07_dt_cancellazione] IS NULL) OR ([t07_dt_cancellazione] = @Original_t07_dt_cancellazione)))</value>
+  </data>
+  <metadata name="SqlInsertCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlInsertCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlInsertCommand.CommandText" xml:space="preserve">
+    <value>INSERT INTO [t07_stati_istanza] ([t07_id_stato_istanza], [t07_descrizione], [t07_posizione], [t07_dt_creazione], [t07_dt_modifica], [t07_dt_cancellazione]) VALUES (@t07_id_stato_istanza, @t07_descrizione, @t07_posizione, @t07_dt_creazione, @t07_dt_modifica, @t07_dt_cancellazione);
+SELECT t07_id_stato_istanza, t07_descrizione, t07_posizione, t07_dt_creazione, t07_dt_modifica, t07_dt_cancellazione FROM t07_stati_istanza WHERE (t07_id_stato_istanza = @t07_id_stato_istanza)</value>
+  </data>
+  <metadata name="SqlSelectCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlSelectCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="SqlUpdateCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SqlUpdateCommand.CommandText" xml:space="preserve">
+    <value>UPDATE [t07_stati_istanza] SET [t07_id_stato_istanza] = @t07_id_stato_istanza, [t07_descrizione] = @t07_descrizione, [t07_posizione] = @t07_posizione, [t07_dt_creazione] = @t07_dt_creazione, [t07_dt_modifica] = @t07_dt_modifica, [t07_dt_cancellazione] = @t07_dt_cancellazione WHERE (([t07_id_stato_istanza] = @Original_t07_id_stato_istanza) AND ((@IsNull_t07_descrizione = 1 AND [t07_descrizione] IS NULL) OR ([t07_descrizione] = @Original_t07_descrizione)) AND ((@IsNull_t07_posizione = 1 AND [t07_posizione] IS NULL) OR ([t07_posizione] = @Original_t07_posizione)) AND ((@IsNull_t07_dt_creazione = 1 AND [t07_dt_creazione] IS NULL) OR ([t07_dt_creazione] = @Original_t07_dt_creazione)) AND ((@IsNull_t07_dt_modifica = 1 AND [t07_dt_modifica] IS NULL) OR ([t07_dt_modifica] = @Original_t07_dt_modifica)) AND ((@IsNull_t07_dt_cancellazione = 1 AND [t07_dt_cancellazione] IS NULL) OR ([t07_dt_cancellazione] = @Original_t07_dt_cancellazione)));
+SELECT t07_id_stato_istanza, t07_descrizione, t07_posizione, t07_dt_creazione, t07_dt_modifica, t07_dt_cancellazione FROM t07_stati_istanza WHERE (t07_id_stato_istanza = @t07_id_stato_istanza)</value>
+  </data>
+  <metadata name="GestioneProduzione2009DataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>410, 17</value>
+  </metadata>
+  <metadata name="T11_fornitoriTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>210, 17</value>
+  </metadata>
+  <metadata name="T20_articoliTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="T21_articoli_macchineTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="T22_articoli_articoliTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="T07_stati_istanzaTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="T06_istanze_macchineTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>252, 134</value>
+  </metadata>
+  <metadata name="T05_macchineTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>394, 56</value>
+  </metadata>
+  <metadata name="T25_matricoleTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>430, 212</value>
+  </metadata>
+  <metadata name="T08_testate_ordini_forTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="T09_righe_ordine_forTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>149, 56</value>
+  </metadata>
+  <metadata name="T26_formule_prezziTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>239, 95</value>
+  </metadata>
+  <metadata name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+</root>

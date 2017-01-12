@@ -1,0 +1,867 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{78BA2863-BFDB-4C73-AB1C-898795CF7990}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Immagini\Recent Documents.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>GestioneProduzione2009</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>GestioneProduzione</RootNamespace>
+    <StartupObject>GestioneProduzione.My.MyApplication</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsForms</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GestioneProduzione2009.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GestioneProduzione2009.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>none</DebugType>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'All|AnyCPU' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\All\</OutputPath>
+    <BaseAddress>285212672</BaseAddress>
+    <DocumentationFile>GestioneProduzione2009.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ApplicationBlocks.Data">
+      <Name>Microsoft.ApplicationBlocks.Data</Name>
+      <HintPath>..\..\..\..\..\Programmi\Microsoft Application Blocks for .NET\Data Access v2\Code\VB\Microsoft.ApplicationBlocks.Data\bin\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Ribbon35, Version=3.5.8.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataBase\Aggiornamenti\141009 t31_configurazione.sql" />
+    <None Include="DataBase\Aggiornamenti\140827 offerte.sql" />
+    <None Include="DataBase\Aggiornamenti\140909 offerte ed utenti.sql" />
+    <None Include="DataBase\Aggiornamenti\140917 t28_testate_ordini_cli.sql" />
+    <None Include="DataBase\Aggiornamenti\141015 t25_matricole e ordini.sql" />
+    <None Include="DataBase\Aggiornamenti\REDA Elimina Offerte.sql" />
+    <None Include="DataBase\Aggiornamenti\t28_testate_ordini_cli.sql" />
+    <None Include="DataBase\t25_matricole.sql" />
+    <None Include="Doc\REDA APPUNTI.doc" />
+    <None Include="DLL\acclExplorerBar.dll" />
+    <None Include="DLL\Microsoft.ApplicationBlocks.Data.dll" />
+    <None Include="DLL\System.Windows.Forms.Ribbon35.dll" />
+    <None Include="Immagini\1downarrow.png" />
+    <None Include="Immagini\1uparrow.png" />
+    <None Include="Immagini\2leftarrow.png" />
+    <None Include="Immagini\2rightarrow.png" />
+    <None Include="Immagini\apply.png" />
+    <None Include="Immagini\atreeblu.ico" />
+    <None Include="Immagini\busyicons\busy-icon0.png" />
+    <None Include="Immagini\busyicons\busy-icon1.png" />
+    <None Include="Immagini\busyicons\busy-icon10.png" />
+    <None Include="Immagini\busyicons\busy-icon11.png" />
+    <None Include="Immagini\busyicons\busy-icon12.png" />
+    <None Include="Immagini\busyicons\busy-icon13.png" />
+    <None Include="Immagini\busyicons\busy-icon14.png" />
+    <None Include="Immagini\busyicons\busy-icon2.png" />
+    <None Include="Immagini\busyicons\busy-icon3.png" />
+    <None Include="Immagini\busyicons\busy-icon4.png" />
+    <None Include="Immagini\busyicons\busy-icon5.png" />
+    <None Include="Immagini\busyicons\busy-icon6.png" />
+    <None Include="Immagini\busyicons\busy-icon7.png" />
+    <None Include="Immagini\busyicons\busy-icon8.png" />
+    <None Include="Immagini\busyicons\busy-icon9.png" />
+    <None Include="Immagini\busyicons\idle-icon.png" />
+    <None Include="Immagini\cancel.png" />
+    <None Include="Immagini\dialog_close.png" />
+    <None Include="Immagini\document_preview.png" />
+    <None Include="Immagini\folder_blue_open.png" />
+    <None Include="Immagini\folder_new.png" />
+    <None Include="Immagini\kjobviewer.png" />
+    <None Include="Immagini\ledblue.png" />
+    <None Include="Immagini\ledgreen.png" />
+    <None Include="Immagini\ledlightblue.png" />
+    <None Include="Immagini\ledlightgreen.png" />
+    <None Include="Immagini\ledorange.png" />
+    <None Include="Immagini\ledpurple.png" />
+    <None Include="Immagini\ledred.png" />
+    <None Include="Immagini\ledyellow.png" />
+    <None Include="Immagini\list_add_font.png" />
+    <None Include="Immagini\logo-reda.png" />
+    <None Include="Immagini\messagebox_critical.png" />
+    <None Include="Immagini\mime_lyx.png" />
+    <None Include="Immagini\My Excel Files XP.ico" />
+    <None Include="Immagini\My PDFs XP.ico" />
+    <None Include="Immagini\My Word Files XP.ico" />
+    <None Include="Immagini\pdf.jpg" />
+    <None Include="Immagini\printer.ico" />
+    <None Include="Immagini\Printers2.ico" />
+    <None Include="Immagini\product_finished_24.ico" />
+    <None Include="Immagini\product_finished_24.png" />
+    <None Include="Immagini\product_finished_48.png" />
+    <None Include="Immagini\product_finished_config_24.ico" />
+    <None Include="Immagini\product_finished_config_24.png" />
+    <None Include="Immagini\product_finished_config_48.png" />
+    <None Include="Immagini\product_finished_level_24.ico" />
+    <None Include="Immagini\product_finished_level_24.png" />
+    <None Include="Immagini\product_finished_level_48.png" />
+    <None Include="Immagini\Recent Documents.ico" />
+    <None Include="Immagini\reda.gif" />
+    <None Include="Immagini\undo.png" />
+    <None Include="Immagini\viewmag.png" />
+    <None Include="Logo\Reda.GIF" />
+    <None Include="Logo\Reda.jpg" />
+    <Content Include="Immagini\editcopy_22.png" />
+    <Content Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </Content>
+    <None Include="Immagini\logo-ditta.png">
+    </None>
+    <None Include="Immagini\logo-ditta.png.atree" />
+    <None Include="Immagini\printer.png" />
+    <None Include="Immagini\word.png" />
+    <None Include="Query\REDA-TabellaUtenti.sql" />
+    <None Include="Resources\edit.png" />
+    <None Include="Query\REDA-20140625-DescrizioniCommerciali.sql" />
+    <None Include="Resources\list_add_font.png" />
+    <None Include="Query\GestioneProduzione2009_Clear.sql" />
+    <None Include="Resources\kodo.png" />
+    <None Include="Resources\db_comit.png" />
+    <None Include="Resources\exec.png" />
+    <None Include="Resources\edit_user.png" />
+    <None Include="Resources\kuser.png" />
+    <None Include="Resources\games_difficult.png" />
+    <None Include="Resources\edit-paste.png" />
+    <None Include="Resources\document-print.png" />
+    <None Include="Resources\ledyellow.png" />
+    <None Include="Resources\ledpurple.png" />
+    <None Include="Resources\ledorange.png" />
+    <None Include="Resources\format_list_ordered.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\view_list_details.png" />
+    <None Include="Resources\document_new.png" />
+    <None Include="Resources\help_about.png" />
+    <None Include="Resources\undo.png" />
+    <None Include="Resources\save_all.png" />
+    <None Include="Resources\start.png" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Resources\reload.png" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="AppUtil.vb" />
+    <Compile Include="frmMain2.Designer.vb">
+      <DependentUpon>frmMain2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOfferta2Commessa.Designer.vb">
+      <DependentUpon>frmOfferta2Commessa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOfferta2Commessa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffertaElenco.Designer.vb">
+      <DependentUpon>frmOffertaElenco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffertaElenco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffertaNuova.Designer.vb">
+      <DependentUpon>frmOffertaNuova.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffertaNuova.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataModel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmArticoliInventario.Designer.vb">
+      <DependentUpon>frmArticoliInventario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArticoliInventario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="ConnectionStringUtil.vb" />
+    <Compile Include="frmListinoRicambi.Designer.vb">
+      <DependentUpon>frmListinoRicambi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmListinoRicambi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOffertaRicambiBase.Designer.vb">
+      <DependentUpon>frmOffertaRicambiBase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOffertaRicambiBase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdiniRicambiNuovo.Designer.vb">
+      <DependentUpon>frmOrdiniRicambiNuovo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdiniRicambiNuovo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImpostazioni.Designer.vb">
+      <DependentUpon>frmImpostazioni.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImpostazioni.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdiniRicambiElenco.Designer.vb">
+      <DependentUpon>frmOrdiniRicambiElenco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdiniRicambiElenco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IFormCallRefreshable.vb" />
+    <Compile Include="IFormRefreshable.vb" />
+    <Compile Include="REDA-Articoli2.vb">
+      <DependentUpon>REDA-Articoli2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="REDA-CommessaVendita.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>REDA-CommessaVendita.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REDA-CommessaVenditaMag.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>REDA-CommessaVenditaMag.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REDA-Commesse2.vb">
+      <DependentUpon>REDA-Commesse2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="REDA-IstanzeMacchine2.vb">
+      <DependentUpon>REDA-IstanzeMacchine2.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="frmInformazioniSu.Designer.vb">
+      <DependentUpon>frmInformazioniSu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInformazioniSu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguratorePrezzi.Designer.vb">
+      <DependentUpon>frmConfiguratorePrezzi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguratorePrezzi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArticoliSituazione.Designer.vb">
+      <DependentUpon>frmArticoliSituazione.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArticoliSituazione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguratoreMatricole.Designer.vb">
+      <DependentUpon>frmConfiguratoreMatricole.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfiguratoreMatricole.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnagraficaArticoli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguratoreArticoli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalendario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnagraficaClienti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCommesseSimulazione.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCommesseElenco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmElencoOrdiniFor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvasioneArticoli.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvasioneOrdini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvasioneOrdiniRicambi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnagraficaFornitori.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguratoreGruppi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInsGruppoMacchina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCommesseNuova.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfiguratoreMacchine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdiniFor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSceltaArticolo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSceltaArticolo3.Designer.vb">
+      <DependentUpon>frmSceltaArticolo3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSceltaArticolo3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSceltaCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSceltaFornitore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSceltaGruppo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSceltaMacchina.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="REDA-Articoli.vb">
+      <DependentUpon>REDA-Articoli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-ArticoliInOrdine.vb">
+      <DependentUpon>REDA-ArticoliInOrdine.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-Commesse.vb">
+      <DependentUpon>REDA-Commesse.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-ConfigurazioneMacchine.vb">
+      <DependentUpon>REDA-ConfigurazioneMacchine.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-IstanzeMacchine.vb">
+      <DependentUpon>REDA-IstanzeMacchine.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-Listino.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>REDA-Listino.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="REDA-OrdineAcquisto.vb">
+      <DependentUpon>REDA-OrdineAcquisto.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-OrdineVendita.vb">
+      <DependentUpon>REDA-OrdineVendita.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-OrdiniCli.vb">
+      <DependentUpon>REDA-OrdiniCli.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-OrdiniFor.vb">
+      <DependentUpon>REDA-OrdiniFor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-StrutturaMacchina.vb">
+      <DependentUpon>REDA-StrutturaMacchina.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="REDA-Test.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>REDA-Test.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TEMAC-OrdiniFor.vb">
+      <DependentUpon>TEMAC-OrdiniFor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Content Include="REDA-CommessaVenditaMag.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-CommessaVenditaMag.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="frmMain2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOfferta2Commessa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOfferta2Commessa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffertaElenco.resx">
+      <DependentUpon>frmOffertaElenco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffertaNuova.resx">
+      <DependentUpon>frmOffertaNuova.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataModel.resx">
+      <DependentUpon>DataModel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvasioneArticoli.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvasioneArticoli.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvasioneOrdiniRicambi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEvasioneOrdiniRicambi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArticoliInventario.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmArticoliInventario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListinoRicambi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListinoRicambi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOffertaRicambiBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOffertaRicambiBase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdiniRicambiNuovo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdiniRicambiNuovo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImpostazioni.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImpostazioni.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdiniRicambiElenco.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdiniRicambiElenco.vb</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="REDA-Articoli2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-Articoli2.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-CommessaVendita.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-CommessaVendita.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-Commesse2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-Commesse2.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-IstanzeMacchine2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-IstanzeMacchine2.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="frmInformazioniSu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInformazioniSu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguratorePrezzi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConfiguratorePrezzi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArticoliSituazione.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmArticoliSituazione.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguratoreMatricole.resx">
+      <DependentUpon>frmConfiguratoreMatricole.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnagraficaArticoli.resx">
+      <DependentUpon>frmAnagraficaArticoli.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguratoreArticoli.resx">
+      <DependentUpon>frmConfiguratoreArticoli.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalendario.resx">
+      <DependentUpon>frmCalendario.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnagraficaClienti.resx">
+      <DependentUpon>frmAnagraficaClienti.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCommesseSimulazione.resx">
+      <DependentUpon>frmCommesseSimulazione.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCommesseElenco.resx">
+      <DependentUpon>frmCommesseElenco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmElencoOrdiniFor.resx">
+      <DependentUpon>frmElencoOrdiniFor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvasioneOrdini.resx">
+      <DependentUpon>frmEvasioneOrdini.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnagraficaFornitori.resx">
+      <DependentUpon>frmAnagraficaFornitori.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguratoreGruppi.resx">
+      <DependentUpon>frmConfiguratoreGruppi.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInsGruppoMacchina.resx">
+      <DependentUpon>frmInsGruppoMacchina.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCommesseNuova.resx">
+      <DependentUpon>frmCommesseNuova.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfiguratoreMacchine.resx">
+      <DependentUpon>frmConfiguratoreMacchine.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdiniFor.resx">
+      <DependentUpon>frmOrdiniFor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSceltaArticolo.resx">
+      <DependentUpon>frmSceltaArticolo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSceltaArticolo3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSceltaArticolo3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSceltaCliente.resx">
+      <DependentUpon>frmSceltaCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSceltaFornitore.resx">
+      <DependentUpon>frmSceltaFornitore.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSceltaGruppo.resx">
+      <DependentUpon>frmSceltaGruppo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSceltaMacchina.resx">
+      <DependentUpon>frmSceltaMacchina.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <SubType>Designer</SubType>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="REDA-Articoli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-Articoli.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-ArticoliInOrdine.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-ArticoliInOrdine.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-Commesse.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-Commesse.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-ConfigurazioneMacchine.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-ConfigurazioneMacchine.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-IstanzeMacchine.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-IstanzeMacchine.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-Listino.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-Listino.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-OrdineAcquisto.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-OrdineAcquisto.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-OrdineVendita.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-OrdineVendita.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-OrdiniCli.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-OrdiniCli.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-OrdiniFor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-OrdiniFor.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-StrutturaMacchina.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-StrutturaMacchina.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="REDA-Test.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>REDA-Test.vb</LastGenOutput>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\16\list_16.png" />
+    <None Include="logo-ditta.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\16\view_list_details_16.png" />
+    <None Include="Resources\22\accessories_text_editor_22.png" />
+    <Content Include="Resources\22\book_22.png" />
+    <Content Include="Resources\22\document_new_22.png" />
+    <Content Include="Resources\22\format_list_ordered_22.png" />
+    <Content Include="Resources\22\list_22.png" />
+    <Content Include="Resources\22\view_list_details_22.png" />
+    <None Include="Resources\32\book_32.png" />
+    <None Include="Resources\32\document_new_32.png" />
+    <None Include="Resources\32\accessories_text_editor_32.png" />
+    <Content Include="Resources\32\list_32.png" />
+    <None Include="Resources\32\view_list_details_32.png" />
+    <None Include="Resources\32\format_list_ordered_32.png" />
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEMAC-OrdiniFor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TEMAC-OrdiniFor.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VS2005\VS2005Commons\VS2005Commons\VS2005Commons.csproj">
+      <Project>{E8440AF9-89B7-4512-AA95-67E9FF89B38E}</Project>
+      <Name>VS2005Commons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestioneProduzione2014Plugins\GestioneProduzione2014Data\GestioneProduzione2014Data.csproj">
+      <Project>{90371958-F0FE-4FFF-BE14-1463E3EAAD5C}</Project>
+      <Name>GestioneProduzione2014Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestioneProduzione2014Plugins\GestioneProduzione2014GinuxImport\GestioneProduzione2014GinuxImport.csproj">
+      <Project>{0F3B9C85-A47A-496C-A9DA-FCB2BEC6282B}</Project>
+      <Name>GestioneProduzione2014GinuxImport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestioneProduzione2014Plugins\GestioneProduzione2014OfficeExport\GestioneProduzione2014OfficeExport.csproj">
+      <Project>{FEF254AF-C31B-49F2-B5F2-A3E7C19563E3}</Project>
+      <Name>GestioneProduzione2014OfficeExport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
